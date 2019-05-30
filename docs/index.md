@@ -1,0 +1,27 @@
+## Goals
+
+- [x] Use [helmuthva/arm32v7-docker-php-apache](https://github.com/helmuthva/arm32v7-docker-php-apache) as base image
+- [x] Deployable on [Project Ceil](https://github.com/helmuthva/ceil)
+- [x] Helm Chart for K8S deploy distributed via [Helmuts Helm Charts](https://helmuthva.github.com/helm)
+- [x] Release automation via make
+- [ ] As an alternative provide a `kustomization` file
+- [ ] Simple PHP/SF4 app
+- [ ] Conform to 12-factor app spec
+- [ ] K8S health checks (readiness and liveness)
+- [ ] File watcher for K8S secrets and configmaps
+- [ ] Use of K8S persistent volume 
+- [ ] K8S introspection
+- [ ] Use of Firebase for persistence
+- [ ] Instrumented with Prometheus for monitoring and alerting
+- [ ] Custom metrics for K8S HPA via Prometheus -> KEDA
+- [ ] Fault injection (random errors and latency)
+- [ ] Graceful shutdown on interrupt signals
+- [ ] 100% coverage of automated tests
+- [ ] Release automation via GitHub Actions
+- [ ] Pluggable to use [webdevops/php-apache-dev](https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/php-apache-dev.html) as base image
+- [ ] Deployable on EKS, GKA and AKA for amd64
+- [ ] Pluggable to use [helmuthva/arm64-docker-php-apache](https://github.com/helmuthva/arm64-docker-php-apache) as base image
+- [ ] Deployable on EKS for arm64 (Amazon Graviton)
+- [ ] Skeleton + generator for enhanced PHP/SF4 based microservices for K8S based on this stack
+- [ ] Migration guide for existing PHP/SF4 based apps runnning outside of K8S
+- [ ] Connect with [helmuthva/PiWatch](https://github.com/helmuthva/piwatch) for fun

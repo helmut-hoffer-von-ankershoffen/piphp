@@ -1,0 +1,12 @@
+apiVersion: v1
+version: 0.0.1
+appVersion: 0.0.1
+name: piphp
+description: Enhanced PHP/SF4 stack for K8S running on RPi
+engine: php
+home: https://helmuthva.github.com/piphp
+maintainers:
+  - email: helmuthva@users.noreply.github.com
+    name: helmuthva
+sources:
+  - https://github.com/helmuthva/piphp
