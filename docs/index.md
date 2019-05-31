@@ -19,7 +19,7 @@
 - [ ] 100% coverage of automated tests
 - [ ] Release automation via GitHub Actions
 - [ ] Pluggable to use [webdevops/php-apache-dev](https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/php-apache-dev.html) as base image
-- [ ] Deployable on EKS, GKA and AKA for amd64
+- [ ] Deployable on EKS, GKE and AKS for amd64
 - [ ] Pluggable to use [helmuthva/arm64-docker-php-apache](https://github.com/helmuthva/arm64-docker-php-apache) as base image
 - [ ] Deployable on EKS for arm64 (Amazon Graviton)
 - [ ] Skeleton + generator for enhanced PHP/SF4 based microservices for K8S based on this stack
