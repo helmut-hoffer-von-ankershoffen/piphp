@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+gcloud auth login
+gcloud config set project eastern-thinker-237121
+gcloud container clusters create piphp  --region=europe-west3 --cluster-version=1.13.6-gke.5 --machine-type=f1-micro --num-nodes=2

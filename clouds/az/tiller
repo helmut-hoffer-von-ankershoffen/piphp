@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+kubectl create -f rbac.yaml
+helm init --service-account tiller --tiller-image=jessestuart/tiller --history-max 20 --wait

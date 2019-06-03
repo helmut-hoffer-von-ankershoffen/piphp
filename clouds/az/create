@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+az login
+az group create --location westeurope --name round
+az aks create --resource-group round --name round --node-count 2 --enable-addons monitoring --generate-ssh-keys
+az aks get-credentials --resource-group round --name round

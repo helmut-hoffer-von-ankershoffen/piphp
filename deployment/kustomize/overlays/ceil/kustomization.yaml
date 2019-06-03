@@ -1,0 +1,5 @@
+namePrefix: ceil-
+bases:
+  - ../../base/
+patches:
+  - replica_count.yaml

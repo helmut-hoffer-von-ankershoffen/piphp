@@ -1,0 +1,9 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: piphp
+  labels:
+    app: piphp
+spec:
+  replicas: 1
